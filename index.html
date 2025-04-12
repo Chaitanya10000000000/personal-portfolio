@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio 💼</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <span id="element" class="name"></span>
+
+       <!-- <p>Building My Web, One Line at a Time</p>-->
+    
+    </header>
+
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p style="font-size: 20px;">Hello! I'm a passionate frontend developer, eager to learn and grow. I have recently completed personal projects and am now looking for opportunities to apply my skills and gain more experience in web development.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        
+          <button id="toggle-skills" data-text="Hide Skills" data-text1="">Show Skills</button>
+        
+         <div id="skills-list" class="hidden">
+            <div class="content">
+                <div>
+                    <h3>Languages</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i>  HTML</li>
+                        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-github"></i> Git</li>
+                        <li><i class="fa-solid fa-code"></i> VS Code</li>
+                        <li><i class="fa-solid fa-pen-to-square"></i> Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        
+        <button id="toggle-projects">Show Projects</button>
+        
+        <div id="projects-list" class="hidden">
+            <p>While I am new to professional development, I have created some personal projects to learn and practice my skills. Here are a few examples:</p>
+            <div class="content">
+                <div>
+                    <h3>Simple Login Form</h3>
+                    <p>A clean and responsive login form built using only HTML and CSS. This project is a great starting point for authentication pages and frontend form design.</p>
+                    <button id="Demo" onclick="document.location='https://chaitanya10000000000.github.io/Login-Form/'">  Demo  <i class="fa-solid fa-laptop-code"></i>
+                    </button>
+                    <button id="Source" onclick="document.location='https://github.com/Chaitanya10000000000/Login-Form'">  View Source  <i class="fa-brands fa-github"></i></button>
+                </div>
+                <div>
+                    <h3>Project-2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button id="Demo"> Demo  <i class="fa-solid fa-laptop-code"></i></button>
+                    <button id="Source">View Source <i class="fa-brands fa-github"></i></button>
+                </div>
+                <div>
+                    <h3>Project-3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button id="Demo"> Demo  <i class="fa-solid fa-laptop-code"></i></button>
+                    <button id="Source">View Source <i class="fa-brands fa-github"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect or discuss any opportunities, feel free to reach out!</p>
+        <ul class="contact-info">
+            <li><i class="fa-solid fa-envelope"></i> Email: <a href="tatkarechaitanya2004@gmail.com" target="_blank">tatkarechaitanyta2004@gmail.com</a></li>
+            <li><i class="fa-brands fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/chaitanya-tatkare" target="_blank">Chaitanya Tatkare</a></li>
+            <li><i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/Chaitanya10000000000" target="_blank">Chaitanya_Tatkare</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Chaitanya tatkare. All rights reserved.</p>
+    </footer>
+
+   <script src="script.js"></script>
+   
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['> Chaitanya Tatkare'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+</html>
