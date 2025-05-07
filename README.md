@@ -5,7 +5,7 @@ It’s built using only HTML, CSS, and JavaScript to keep things simple and ligh
 
 # 🚀 Live Demo
 
-Check out the live site here: ( )
+Check out the live site here: (https://chaitanya10000000000.github.io/personal-portfolio/)
 
 #📌 Features
 
