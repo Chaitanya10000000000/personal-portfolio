@@ -5,9 +5,9 @@ It’s built using only HTML, CSS, and JavaScript to keep things simple and ligh
 
 # 🚀 Live Demo
 
-Check out the live site here: (https://chaitanya10000000000.github.io/personal-portfolio/)
+Check out the live site here: ()
 
-📌 Features
+#📌 Features
 
 - ✨ Simple and clean design
 - 📄 About Me section
@@ -37,4 +37,5 @@ I'm a passionate and curious learner starting my journey in web development. Thi
 
 - Feel free to connect with me:
 * Email: tatkarechaitanya2004@gmail.com 
-* LinkedIn: 
+* LinkedIn: www.linkedin.com/in/chaitanya-tatkare
+
